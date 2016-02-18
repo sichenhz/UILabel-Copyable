@@ -13,6 +13,7 @@
 		25C611BC1C76190900E5BAE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C611BA1C76190900E5BAE3 /* Main.storyboard */; };
 		25C611BE1C76190900E5BAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C611BD1C76190900E5BAE3 /* Assets.xcassets */; };
 		25C611C11C76190900E5BAE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C611BF1C76190900E5BAE3 /* LaunchScreen.storyboard */; };
+		25C611CB1C76193D00E5BAE3 /* UILabel+Copyable.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C611CA1C76193D00E5BAE3 /* UILabel+Copyable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		25C611BD1C76190900E5BAE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25C611C01C76190900E5BAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25C611C21C76190900E5BAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C611C91C76193D00E5BAE3 /* UILabel+Copyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Copyable.h"; sourceTree = "<group>"; };
+		25C611CA1C76193D00E5BAE3 /* UILabel+Copyable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Copyable.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		25C611B01C76190900E5BAE3 /* UILabel+Copyable */ = {
 			isa = PBXGroup;
 			children = (
+				25C611C81C76192700E5BAE3 /* UILabel+Copyable */,
 				25C611B41C76190900E5BAE3 /* AppDelegate.h */,
 				25C611B51C76190900E5BAE3 /* AppDelegate.m */,
 				25C611B71C76190900E5BAE3 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				25C611B21C76190900E5BAE3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25C611C81C76192700E5BAE3 /* UILabel+Copyable */ = {
+			isa = PBXGroup;
+			children = (
+				25C611C91C76193D00E5BAE3 /* UILabel+Copyable.h */,
+				25C611CA1C76193D00E5BAE3 /* UILabel+Copyable.m */,
+			);
+			path = "UILabel+Copyable";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25C611B91C76190900E5BAE3 /* ViewController.m in Sources */,
+				25C611CB1C76193D00E5BAE3 /* UILabel+Copyable.m in Sources */,
 				25C611B61C76190900E5BAE3 /* AppDelegate.m in Sources */,
 				25C611B31C76190900E5BAE3 /* main.m in Sources */,
 			);
